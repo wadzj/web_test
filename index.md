@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,7 +22,8 @@
     }
     function showPosition(position) {
     x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
+    "<br>Longitude: " + position.coords.longitude +
+    "<br>Speed: " + position.coords.speed;
     }
     </script> 
 
